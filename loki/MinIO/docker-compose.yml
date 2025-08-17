@@ -12,5 +12,5 @@ services:
       - ./data:/data
     environment:
       MINIO_ROOT_USER: "iman"
-      MINIO_ROOT_PASSWORD: "j80K3878rgUc346EgqYZ1GSMkNX2LW"
+      MINIO_ROOT_PASSWORD: "XXX"
     command: server /data --console-address ":9001"
